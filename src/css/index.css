@@ -1,0 +1,124 @@
+@charset "UTF-8";
+html {
+  font-size: 100px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: .14rem;
+  font-famliy: "微软雅黑";
+  box-sizing: border-box; }
+
+body {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; }
+
+button,
+textarea,
+select,
+input {
+  appearance: none; }
+
+a {
+  top-highlight-color: rgba(0, 0, 0, 0); }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../fonts1/iconfont.eot?t=1476059862");
+  /* IE9*/
+  src: url("../fonts1/iconfont.eot?t=1476059862#iefix") format("embedded-opentype"), url("../fonts1/iconfont.woff?t=1476059862") format("woff"), url("../fonts1/iconfont.ttf?t=1476059862") format("truetype"), url("../fonts1/iconfont.svg?t=1476059862#iconfont") format("svg");
+  /* iOS 4.1- */ }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .2rem; }
+  header span li {
+    margin-top: .1rem; }
+  header span.active {
+    color: yellow; }
+
+#p {
+  display: block;
+  display: none; }
+
+section {
+  flex: 1; }
+
+.wrapper {
+  width: 100%;
+  height: 3rem;
+  margin-top: .35rem; }
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .container dl {
+    width: 45%;
+    height: auto;
+    margin-left: .05rem;
+    text-align: center; }
+    .container dl dt img {
+      width: 1rem;
+      height: auto; }
+
+.top {
+  width: 100%;
+  height: 0.3rem;
+  background: #ccc;
+  text-align: center;
+  line-height: .3rem;
+  position: fixed;
+  top: -0.3rem; }
+  .top img {
+    width: 0.2rem;
+    height: auto;
+    vertical-align: middle; }
+
+.bottom {
+  width: 100%;
+  height: 0.3rem;
+  position: fixed;
+  bottom: -0.3rem;
+  background: #ccc;
+  text-align: center;
+  line-height: .3rem; }
+  .bottom img {
+    width: 0.2rem;
+    height: auto;
+    vertical-align: middle; }
+
+.alert {
+  width: 100%;
+  height: 0.3rem;
+  background: #ccc;
+  text-align: center;
+  line-height: .3rem;
+  display: none; }
