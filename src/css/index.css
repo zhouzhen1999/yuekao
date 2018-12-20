@@ -79,7 +79,8 @@ section {
   height: auto;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  position: relative; }
   .container dl {
     width: 45%;
     height: auto;
@@ -87,7 +88,35 @@ section {
     text-align: center; }
     .container dl dt img {
       width: 1rem;
+      height: 0.8rem; }
+    .container dl.float {
+      width: 100%;
       height: auto; }
+      .container dl.float dt {
+        float: left; }
+  .container:after {
+    content: attr(up);
+    width: 100%;
+    height: .3rem;
+    background: #ccc;
+    display: block;
+    position: absolute;
+    bottom: -.4rem;
+    left: 0;
+    text-align: center; }
+  .container.tab {
+    width: 100%;
+    height: auto; }
+    .container.tab dl {
+      width: 100%;
+      height: auto; }
+      .container.tab dl dd {
+        float: left; }
+
+.wrapper {
+  width: 100%;
+  height: 4rem;
+  overflow: hidden; }
 
 .top {
   width: 100%;

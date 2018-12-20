@@ -1,50 +1,93 @@
 [{
         "title": "大范甘迪",
         "content": "发的韩国的风格",
-        "money": "$43",
+        "money": "43",
+        "img": "./images/pic1.jpg",
         "credit": 2
     },
     {
         "title": "建发股份的加工费的",
         "content": "范德萨发顺丰",
-        "money": "$12",
+        "money": "12",
+        "img": "./images/pic2.jpg",
         "credit": 9
     },
     {
         "title": "大范甘迪456546",
         "content": "6546发的韩国的风格",
-        "money": "$56",
+        "money": "56",
+        "img": "./images/pic3.jpg",
         "credit": 3
     },
     {
         "title": "大范甘迪34354",
         "content": "大家发的是发的韩",
-        "money": "$21",
+        "img": "./images/pic4.jpg",
+        "money": "21",
         "credit": 5
     },
     {
         "title": "规定的方法",
         "content": "发的韩国的风格",
-        "money": "$28",
+        "img": "./images/pic5.jpg",
+        "money": "28",
         "credit": 4
     },
     {
         "title": "发帖人",
         "content": "发的韩国的风格",
-        "money": "$54",
+        "img": "./images/pic6.jpg",
+        "money": "54",
         "credit": 6
     },
     {
         "title": "复地都是范德萨",
         "content": "发的韩国的风格",
-        "money": "$76",
+        "money": "76",
+        "img": "./images/pic3.jpg",
         "credit": 10
     },
     {
         "title": "地方GV地方",
         "content": "发的韩国的风格",
-        "money": "$565",
+        "img": "./images/pic1.jpg",
+        "money": "565",
         "credit": 7
+    },
+    {
+        "title": "建发股份的加工费的",
+        "content": "范德萨发顺丰",
+        "money": "12",
+        "img": "./images/pic2.jpg",
+        "credit": 9
+    },
+    {
+        "title": "大范甘迪456546",
+        "content": "6546发的韩国的风格",
+        "money": "56",
+        "img": "./images/pic3.jpg",
+        "credit": 3
+    },
+    {
+        "title": "大范甘迪34354",
+        "content": "大家发的是发的韩",
+        "img": "./images/pic4.jpg",
+        "money": "21",
+        "credit": 5
+    },
+    {
+        "title": "规定的方法",
+        "content": "发的韩国的风格",
+        "img": "./images/pic5.jpg",
+        "money": "28",
+        "credit": 4
+    },
+    {
+        "title": "发帖人",
+        "content": "发的韩国的风格",
+        "img": "./images/pic6.jpg",
+        "money": "54",
+        "credit": 6
     }
 
 ]
